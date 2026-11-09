@@ -84,6 +84,15 @@ publications:
           me: true
         - name: "S. Hong"
         - name: "B.-I. Kim"
+      year: "2026"
+      title: "Berth Scheduling with Maintenance and Vessel Shifting at a Dry-Bulk Terminal"
+      venue: "2026 INFORMS Annual Meeting, San Francisco, California, U.S.A."
+      
+    - authors:
+        - name: "H. Kim"
+          me: true
+        - name: "S. Hong"
+        - name: "B.-I. Kim"
         - name: "H.-J. Sung"
         - name: "H. Wi"
       year: "2025"
@@ -269,4 +278,4 @@ awards:
     year: "2025"
     details: "Awarded KRW 3,250,000 (round-trip airfare support)."
 
-last_updated: "Oct 8, 2026"
+last_updated: "Nov 9, 2026"
