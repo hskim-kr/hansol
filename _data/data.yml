@@ -195,11 +195,15 @@ publications:
       venue: "2022 KIIE/KORMS Spring Joint Conference, Jeju, Korea"
 
 rd_projects:
-  - time: "Dec 2025 - Present"
+  - time: "Sep 2026 - Jan 2027"
+    title: "Classical Optimization Models and Solutions for Raw Material Berth Scheduling for Comparison with Quantum Computing"
+    organization: "Research Institute of Industrial Science & Technology (RIST)"
+    
+  - time: "Dec 2025 - Mar 2026"
     title: "Consulting on Porting the Berth Scheduling Engine to the Production Environment"
     organization: "Pohang Iron & Steel Company Digital Transformation (POSCO DX)"
 
-  - time: "Oct 2025 - Present"
+  - time: "Oct 2025 - Sep 2026"
     title: "Development of Berth Scheduling Algorithm Considering Refined Handling Efficiency by Berth and Brand"
     organization: "Pohang Iron & Steel Company (POSCO)"
 
@@ -279,4 +283,4 @@ awards:
     year: "2025"
     details: "Awarded KRW 3,250,000 (round-trip airfare support)."
 
-last_updated: "Nov 9, 2026"
+last_updated: "Nov 20, 2026"
