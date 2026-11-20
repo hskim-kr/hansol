@@ -6,9 +6,11 @@ layout: default
   <div class="container-block">
     <aside class="sidebar">
       {% include profile-photo.html %}
-      {% include contact.html %}
-      {% include languages.html %}
-      {% include skills.html %}
+      <div class="sidebar-info">
+        {% include contact.html %}
+        {% include languages.html %}
+        {% include skills.html %}
+      </div>
     </aside>
 
     <main class="main">

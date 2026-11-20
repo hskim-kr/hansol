@@ -1,5 +1,9 @@
-{% if site.data.data.photo %}
+{% assign data = site.data.data %}
+{% if data.photo %}
 <section class="profile-photo">
-  <img src="{{ site.data.data.photo | relative_url }}" alt="Photo of {{ site.data.data.name }}" width="600" height="800">
+  <img src="{{ data.photo | relative_url }}"
+       {% if data.photo_large %}srcset="{{ data.photo | relative_url }} 600w, {{ data.photo_large | relative_url }} 1200w"
+       sizes="(max-width: 600px) 100vw, (max-width: 1023px) 40vw, 220px"{% endif %}
+       alt="Photo of {{ data.name }}" width="600" height="800">
 </section>
 {% endif %}

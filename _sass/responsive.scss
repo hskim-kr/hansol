@@ -1,3 +1,37 @@
+// Medium and small screens: sidebar on top, main content below
+@media screen and (max-width: 1023px) {
+  .container .container-block {
+    display: block;
+
+    .sidebar {
+      margin-top: 0;
+      border-right: none;
+      padding-right: 0;
+      margin-bottom: 24px;
+    }
+  }
+}
+
+// Medium screens: photo on the left, contact/languages/skills on the right
+@media screen and (min-width: 601px) and (max-width: 1023px) {
+  .container .container-block .sidebar {
+    display: flex;
+    align-items: flex-start;
+    gap: 32px;
+
+    .profile-photo {
+      flex: 0 0 40%;
+      max-width: 340px;
+      margin-bottom: 0;
+    }
+
+    .sidebar-info {
+      flex: 1 1 auto;
+      min-width: 0;
+    }
+  }
+}
+
 @media screen and (max-width: 768px) {
   .container {
     padding: 20px;
@@ -6,13 +40,6 @@
 
     .container-block {
       width: 100%;
-      display: block;
-
-      .sidebar {
-        border-right: none;
-        padding-right: 0;
-        margin-bottom: 24px;
-      }
     }
   }
 
