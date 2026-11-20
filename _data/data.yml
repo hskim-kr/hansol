@@ -42,14 +42,14 @@ education:
     
 research_interests:
   topics:
-    - "Placement & Routing (Network Flow Perspective)"
+    - "Resource Allocation in GPU Clusters under Network and Power Constraints"
     - "Vehicle Routing Problems (e.g., Location-Routing, Inventory-Routing)"
     - "Scheduling (e.g., Shipbuilding, Nurse Rostering, Berth Allocation)"
     - "Logistics and Supply Chain Management (e.g., Hydrogen Refueling Station Deployment)"
     - "Other Operations Research Applications"
   methods:
     - "Combinatorial Optimization"
-    - "Exact Methods"
+    - "Exact Methods (e.g., Branch-and-Price, Dynamic Programming)"
     - "Heuristics, Metaheuristics, and Matheuristics"
 
 publications:
