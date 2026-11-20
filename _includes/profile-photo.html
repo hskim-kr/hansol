@@ -1,0 +1,5 @@
+{% if site.data.data.photo %}
+<section class="profile-photo">
+  <img src="{{ site.data.data.photo | relative_url }}" alt="Photo of {{ site.data.data.name }}" width="600" height="800">
+</section>
+{% endif %}
